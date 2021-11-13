@@ -62,7 +62,6 @@ function setup() {
   ball = Bodies.circle(50,200,20);
   World.add(world,ball);
 
-  slingShot = new Slingshot(this.ball,{x:100,y:200});
 
 }
 
@@ -106,21 +105,5 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
-  fill("skyblue");
-  blocks1.display();
-  blocks2.display();
-  blocks3.display();
-  blocks4.display();
-  blocks5.display();
-  fill("turquoise");
-  blocks6.display();
-  blocks7.display();
-  blocks8.display();
-  fill("pink")
-  blocks9.display();
-  fill("gold");
-
-
-  
-  slingShot.display();
+  fill("skyblue")
 }
